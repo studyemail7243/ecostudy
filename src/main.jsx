@@ -7,7 +7,7 @@ import App from './App.jsx'
 const googleClientId = import.meta.env.VITE_GOOGLE_CLIENT_ID;
 
 if (!googleClientId) {
-  console.error('VITE_GOOGLE_CLIENT_ID environment variable is not set. Please configure your .env.local file.');
+  console.error('VITE_GOOGLE_CLIENT_ID environment variable is not set. Please configure your .env file.');
 }
 
 createRoot(document.getElementById('root')).render(
