@@ -27,6 +27,7 @@ function MissingGoogleClientId() {
         <p style={{ lineHeight: 1.6, opacity: 0.85 }}>
           Without it, Google receives a request with a missing client_id and returns Error 400: invalid_request.
         </p>
+        
       </div>
     </div>
   )
