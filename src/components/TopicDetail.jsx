@@ -77,10 +77,10 @@ function TopicDetail() {
         </button>
         <button
           className="back-btn"
-          onClick={() => setActiveTab('keypoints')}
-          style={{ background: activeTab === 'keypoints' ? 'rgba(34, 197, 94, 0.3)' : undefined }}
+          onClick={() => setActiveTab('revision')}
+          style={{ background: activeTab === 'revision' ? 'rgba(34, 197, 94, 0.3)' : undefined }}
         >
-          <Lightbulb size={16} /> Key Points to Remember
+          <Lightbulb size={16} /> Quick Revision Session
         </button>
       </div>
 
@@ -107,7 +107,7 @@ function TopicDetail() {
         <div className="content-section slide-in">
           <h2>
             <Lightbulb size={20} color="#22c55e" />
-            Key Points to Remember (Memory Tricks)
+            Quick Revision Session
           </h2>
           <ul>
             {topic.memoryTricks.map((trick, i) => (
